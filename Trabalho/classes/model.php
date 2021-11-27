@@ -6,9 +6,9 @@ class model
     //atributos
     //precisa de 4 atributos -> servidor / banco / usuario / senha
     //visibilidade -> private / public
-    private $server = "";
-    private $bd = "";
-    private $user = "";
+    private $server = "localhost";
+    private $bd = "moon_burguer";
+    private $user = "root";
     private $password = "";
     private $conn = ""; //variavel que vai receber a conexão com o banco
 
