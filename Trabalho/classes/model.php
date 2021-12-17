@@ -6,10 +6,10 @@ class model
     //atributos
     //precisa de 4 atributos -> servidor / banco / usuario / senha
     //visibilidade -> private / public
-    private $server = "boaventura.mysql.dbaas.com.br";
-    private $bd = "boaventura";
-    private $user = "boaventura";
-    private $password = "orombas2021";
+    private $server = "localhost";
+    private $bd = "moon_burguer";
+    private $user = "root";
+    private $password = "";
     private $conn = ""; //variavel que vai receber a conexão com o banco
 
 
